@@ -1,0 +1,17 @@
+.active {
+    color: greenyellow;
+}
+.weak {
+    border-color: yellow !important;
+    color: yellow !important;
+    &:focus{
+        outline: none;
+    }
+}
+.strong{
+    color: greenyellow;
+    border-color: greenyellow;
+    &:focus{
+        outline: none;
+    }
+}
