@@ -8,15 +8,17 @@ import { ReactiveFormsModule,FormsModule } from '@angular/forms';
 import { ClassDirective } from './oaClass.directive';
 import { NumberOnlyDirective } from './numberOnly.directive';
 import { StrongPasswordDirective } from './strong-password.directive';
+import { OnLineDirective } from './on-line.directive';
 
 @NgModule({
-  declarations: [					
+  declarations: [						
     AppComponent,
       OaIfDirective,
     ControlDirective,
       ClassDirective,
       NumberOnlyDirective,
-      StrongPasswordDirective
+      StrongPasswordDirective,
+      OnLineDirective
    ],
   imports: [
     BrowserModule,ReactiveFormsModule,FormsModule
